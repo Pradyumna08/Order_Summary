@@ -1,0 +1,40 @@
+body{
+   margin: 0px;
+   background-color: hsl(225, 100%, 94%);
+   background-image: url("pattern-background-desktop.svg");
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+ .parent {
+    position: absolute;
+    
+  }
+.child{
+    position: relative;
+    height: 700px;
+    width: 450px;
+    background-color:  white;
+    
+    border-radius: 20px;
+    margin-top:50%;
+    margin-left:50% ;
+    margin-right: 50%;
+    text-align: center;
+  
+       
+}
+#id1
+{
+    border-radius: 20px 20px 0 0;
+}
+p{
+    font-size: 16px;
+    color: hsl(223, 47%, 23%);
+    font-weight: 700;
+    font-family: 'Red Hat Display';
+}
+
+.child_heading{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
